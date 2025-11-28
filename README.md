@@ -3,6 +3,7 @@
 Description
 -----------
 
+
 Ce dépôt contient une configuration minimale pour lancer Netdata en conteneur Docker afin de surveiller en temps réel la machine hôte et les conteneurs. La configuration fournie expose Netdata en mode `host` (accès direct au réseau de la machine) et monte des volumes permettant d'accéder aux informations système nécessaires (proc, sys, logs, docker.sock, etc.).
 
 Prérequis
